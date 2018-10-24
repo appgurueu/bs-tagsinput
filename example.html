@@ -3,3 +3,12 @@
 <!-- Form goes here -->
 <input form="addcontent" type='hidden' name='tagsresult' id='tagsresult' value=''/> <!-- Hidden element for passing vars to PHP / whatever you evaluate the form with -->
 </form>
+<!-- Tagsinput : use this STRICT format or you may experience bugs !-->
+<label for="tags">Tags : </label>
+<div class="form-inline form-group">
+<input type="text" style="width:19rem;" class="form-control" name="not_tags" id="tags" placeholder="add-tag" maxlength="128">
+</div>
+<!-- This actually makes it a tagsinput -->
+<script>
+document.getElementById('tags').onkeypress=function(e) { addTag(e,"tags"); }
+</script>
