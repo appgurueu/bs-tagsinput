@@ -6,7 +6,7 @@ function update_tags(name) {
     do {
         tags.push(entry.innerHTML);
         entry=entry.previousSibling;
-    } while (entry != null && entry.className=="btn btn-secondary mr-2 mb-1 mt-1");
+    } while (entry != null && entry.className=="btn btn-secondary mr-2 mb-2 mt-1");
     result.value=tags.reverse().join(';');
 }
 function remove(id,name) {
@@ -20,7 +20,7 @@ function addTag(e,name) {
     var entry=document.getElementById(name);
     entry.value=entry.value.toLowerCase();
     if (keyCode == '8' && entry.value.length==0) {
-        if (entry.previousSibling.className=="btn btn-secondary mr-2 mb-1 mt-1") {
+        if (entry.previousSibling.className=="btn btn-secondary mr-2 mb-2 mt-1") {
             entry.previousSibling.parentNode.removeChild(entry.previousSibling);
         }
         return;
