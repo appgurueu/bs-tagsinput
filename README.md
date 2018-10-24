@@ -14,3 +14,7 @@ Features :
     - in the proper order
 
 take a look at `example.html`
+
+Screenshot : 
+
+![Image]("/screenshot_tagsinput.png" Tagsinput)
