@@ -17,4 +17,4 @@ take a look at `example.html`
 
 Screenshot : 
 
-![Image]("https://github.com/appgurueu/bs-tagsinput/blob/master/screenshot_tags.png" Tagsinput)
+![Tagsinput](https://github.com/appgurueu/bs-tagsinput/blob/master/screenshot_tags.png)
